@@ -17,9 +17,11 @@ Finally a dynamic controller which is easy to implement and use.
 * refresh_led -> 24
 
 refresh_led is supposed to be toggled inorder for the color to be absorbed into the module
+I use PYNQ PS to input the RGB values to the module 
 
+## The Function implemented will accept (6-byte hex color value) 
 
-## Jupyter notebooks are shared having helper functions to help control the LEDs
+### Jupyter notebooks are shared having helper functions to help control the LEDs
 this is based on Project of mine based on Lightdriver by anfractuosity modeled on a 
 circular ws2812b ring consisting of 24 LEDs
 
