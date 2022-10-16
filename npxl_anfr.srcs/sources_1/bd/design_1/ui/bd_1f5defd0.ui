@@ -1,0 +1,81 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/clk_1:false|",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"-800,-509",
+   "Default View_Layers":"/clk_1:true|",
+   "Default View_Layout":"",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-414,-116",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"1.0",
+   "Grouping and No Loops_TopLeft":"-396,-124",
+   "Interfaces View_Layers":"/clk_1:false|",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-648,-434",
+   "No Loops_ScaleFactor":"1.0",
+   "No Loops_TopLeft":"-393,-114",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "Reduced Jogs_ExpandedHierarchyInLayout":"",
+   "Reduced Jogs_Layers":"/clk_1:true|",
+   "Reduced Jogs_Layout":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 650 -y 110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 650 -y 130 -defaultsOSRD
+preplace port port-id_enable -pg 1 -lvl 1 -x 260 -y 820 -defaultsOSRD -bot
+preplace port port-id_Dout -pg 1 -lvl 3 -x 650 -y 270 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 1 -x 240 -y 820 -defaultsOSRD -bot
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 470 -y 70 -defaultsOSRD -pinY GPIO_0 0R -pinY GPIO_0.GPIO_O 20R -pinY DDR 40R -pinY FIXED_IO 60R -pinY FCLK_CLK0 80R -pinY FCLK_RESET0_N 100R
+preplace inst red -pg 1 -lvl 1 -x 130 -y 270 -defaultsOSRD -pinBusY Din 0L -pinBusY Dout 0R
+preplace inst green -pg 1 -lvl 1 -x 130 -y 470 -defaultsOSRD -pinBusY Din 0L -pinBusY Dout 0R
+preplace inst blue -pg 1 -lvl 1 -x 130 -y 370 -defaultsOSRD -pinBusY Din 0L -pinBusY Dout 0R
+preplace inst refresh -pg 1 -lvl 1 -x 130 -y 670 -defaultsOSRD -pinBusY Din 0L -pinBusY Dout 0R
+preplace inst lighting_0 -pg 1 -lvl 2 -x 470 -y 430 -swap {0 1 2 4 5 3 6} -defaultsOSRD -pinBusY red 0L -pinBusY blu 20L -pinBusY gre 40L -pinY refresh_led 80L -pinY clk 100L -pinY enable 60L -pinY Dout 0R
+preplace netloc processing_system7_0_GPIO_O 1 0 3 20 10 NJ 10 630
+preplace netloc lighting_0_Dout 1 2 1 630 270n
+preplace netloc red_Dout 1 1 1 310 270n
+preplace netloc blue_Dout 1 1 1 290 370n
+preplace netloc green_Dout 1 1 1 N 470
+preplace netloc refresh_Dout 1 1 1 290 510n
+preplace netloc clk_1 1 1 1 310 530n
+preplace netloc processing_system7_0_DDR 1 2 1 NJ 110
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ 130
+levelinfo -pg 1 0 130 470 650
+pagesize -pg 1 -db -bbox -sgen 0 0 770 920
+",
+   "Reduced Jogs_ScaleFactor":"1.0",
+   "Reduced Jogs_TopLeft":"-499,-84",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 830 -y 650 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 830 -y 670 -defaultsOSRD
+preplace port port-id_enable -pg 1 -lvl 3 -x 540 -y 100 -defaultsOSRD -top
+preplace port port-id_Dout -pg 1 -lvl 4 -x 830 -y 320 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 3 -x 520 -y 100 -defaultsOSRD -top
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 650 -y 660 -defaultsOSRD
+preplace inst red -pg 1 -lvl 2 -x 350 -y 190 -defaultsOSRD
+preplace inst green -pg 1 -lvl 2 -x 350 -y 390 -defaultsOSRD
+preplace inst blue -pg 1 -lvl 2 -x 350 -y 290 -defaultsOSRD
+preplace inst refresh -pg 1 -lvl 2 -x 350 -y 490 -defaultsOSRD
+preplace inst lighting_0 -pg 1 -lvl 3 -x 650 -y 320 -defaultsOSRD
+preplace netloc blue_Dout 1 2 1 NJ 290
+preplace netloc clk_1 1 2 1 480 110n
+preplace netloc enable_1 1 2 1 490 120n
+preplace netloc green_Dout 1 2 1 460J 310n
+preplace netloc lighting_0_Dout 1 3 1 NJ 320
+preplace netloc processing_system7_0_GPIO_O 1 1 3 140 550 NJ 550 810
+preplace netloc red_Dout 1 2 1 460J 190n
+preplace netloc refresh_Dout 1 2 1 470J 330n
+preplace netloc processing_system7_0_DDR 1 3 1 NJ 650
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 NJ 670
+levelinfo -pg 1 -10 120 350 650 830
+pagesize -pg 1 -db -bbox -sgen -10 0 950 770
+"
+}
+{
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"2"
+}
