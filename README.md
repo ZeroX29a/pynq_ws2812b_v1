@@ -19,7 +19,7 @@ Finally a dynamic controller which is easy to implement and use.
 refresh_led is supposed to be toggled inorder for the color to be absorbed into the module
 
 
-###jupyter notebooks are shared having helper functions to help control the LEDs
+##jupyter notebooks are shared having helper functions to help control the LEDs
 this is based on Project of mine based on Lightdriver by anfractuosity modeled on a 
 circular ws2812b ring consisting of 24 LEDs
 
