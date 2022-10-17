@@ -2,6 +2,10 @@
 ## An implementation of NeoPxl driver 
 Finally a dynamic controller which is easy to implement and use.
 
+This is an ambitious project for a me (beginner) who is trying to find my ways in the Digital VLSI world.
+Due to the complications, I found while testing, I had to exclude spexify[0 7] which would have individually lit the led.
+
+
 ![schmatics](img.png)
 
 
@@ -16,13 +20,13 @@ Finally a dynamic controller which is easy to implement and use.
 * blue -> GPIO[16 23]
 * refresh_led -> 24
 
-refresh_led is supposed to be toggled inorder for the color to be absorbed into the module
+refresh_led is supposed to be toggled inorder for the color to be absorbed into the module. 
 I use PYNQ PS to input the RGB values to the module 
 
 ## The Function implemented will accept (6-byte hex color value) 
 
 ### Jupyter notebooks are shared having helper functions to help control the LEDs
-this is based on Project of mine based on Lightdriver by anfractuosity modeled on a 
+This is based on Project of mine based on Lightdriver by anfractuosity modeled on a 
 circular ws2812b ring consisting of 24 LEDs
 
 Demo is given Below.
